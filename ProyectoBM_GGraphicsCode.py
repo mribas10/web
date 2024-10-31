@@ -8,7 +8,7 @@ Created on Fri Oct 25 11:34:33 2024
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import os
+#import os
 
 #WINDOW1: LOGIN----------------------------------------------------------------
 if 'w1' not in st.session_state:
@@ -119,7 +119,7 @@ if st.session_state['w3']:
                 if not os.path.exists(user_directory):
                     os.makedirs(user_directory)
                 # File name and save
-                file_path = os.path.join(user_directory, f"{sname}.png")
+                #file_path = os.path.join(user_directory, f"{sname}.png")
                 st.pyplot(fig)
                 plt.savefig(file_path, dpi=300, bbox_inches='tight')
                 st.success(f"Saved as: {sname}.png in {user_directory}.")
