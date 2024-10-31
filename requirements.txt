@@ -2,4 +2,4 @@ pandas
 matplotlib
 os
 matplotlib==3.8.1
-matplotlib-inline==0.1.6
+
