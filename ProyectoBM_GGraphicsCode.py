@@ -116,8 +116,8 @@ if st.session_state['w3']:
         user_directory = st.text_input('Enter the folder directory')
         if st.button('Save'):
             if user_directory:
-                if not os.path.exists(user_directory):
-                    os.makedirs(user_directory)
+                ·if not os.path.exists(user_directory):
+                    #os.makedirs(user_directory)
                 # File name and save
                 #file_path = os.path.join(user_directory, f"{sname}.png")
                 st.pyplot(fig)
