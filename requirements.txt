@@ -1,3 +1,2 @@
-pandas
-matplotlib
-os
+pandas==1.5.3
+matplotlib==3.7.0
