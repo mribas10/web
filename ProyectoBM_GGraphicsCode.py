@@ -7,7 +7,7 @@ Created on Fri Oct 25 11:34:33 2024
 #IMPORT------------------------------------------------------------------------
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import os
 
 #WINDOW1: LOGIN----------------------------------------------------------------
